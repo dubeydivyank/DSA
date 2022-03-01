@@ -1,5 +1,5 @@
+// Solution 1
 function isMonotonic(array) {
-    // Write your code here.
     let isIncreasing = false;
     let isDecreasing = false;
 
@@ -24,8 +24,8 @@ function isMonotonic(array) {
     return isDecreasing ? true : false;
 }
 
+// Solution 2
 function isMonotonic(array) {
-    // Write your code here.
     let isIncreasing = true;
     let isDecreasing = true;
     for (let i = 1; i < array.length; i++) {
