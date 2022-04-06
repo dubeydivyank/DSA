@@ -1,3 +1,4 @@
+//O(logn)time | O(logn)space
 var search = function (nums, target) {
   let pivot = findPivot(nums);
   if (nums.length === 1) {
